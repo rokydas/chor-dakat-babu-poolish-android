@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Game">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/cor_dakat_pala"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#4527A0"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player1Button"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#2E479E"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player1ID"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:background="#2E9E34"
+                android:text="\???"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player2Button"
+                android:background="#2E479E"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player2ID"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#2E9E34"
+                android:textColor="#fff"
+                android:text="\???"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player3Button"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:background="#2E479E"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player3ID"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#2E9E34"
+                android:textColor="#fff"
+                android:text="\???"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player4Button"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="#2E479E"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/player4ID"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="#2E9E34"
+                android:text="\???"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="বাবু পুলিশ দেখান"
+        android:background="#6A1B9A"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="false"
+        android:id="@+id/check"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="চোর ডাকাত দেখান"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="#1565C0"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:id="@+id/check_cordakat"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="পরবর্তী দান"
+        android:textSize="20dp"
+        android:background="#00838F"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/refresh"/>
+
+</LinearLayout>
